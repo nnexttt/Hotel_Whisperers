@@ -1,9 +1,9 @@
 # MiniProject DADS5001
 Mini-Project DADS5001 Data Analytics and Data Science Tools and Programming.
 Project by 
-1. 6620422010 
-2. 6620422019 Suchanan Yimnarong
-3. 66204220...
+1. 6620422010 ณฐกมลวรรณ แดงไพโรจน์
+2. 6620422019 สุชานันท์ ยิ้มณรงค์
+3. 6620422032 ถิรเดช เต็งวัฒนโชติ
 
 # Source of Data
 ชุดข้อมูลนี้ประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ในประเทศโปรตุเกส ตั้งแต่ปี 2015-2017
@@ -22,3 +22,5 @@ Project by
 
 # Data Jouney
 1. Import library ที่ต้องใช้ในการวิเคราะห์ข้อมูล เช่น pandas,numpy และ matplotlib. Download dataset ที่ต้องการวิเคราะห์โดยประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ตั้งแต่ปี 2015-2017 ที่ได้ download มาจาก website Kaggle โดยข้อมูลทั้งหมดมีจำนวน 119390 rows และ 32 columns 
+2. Cleansing Data
+3. 
