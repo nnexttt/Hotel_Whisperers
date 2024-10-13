@@ -69,6 +69,11 @@ Project by
   
    ![Image](https://imgur.com/dvfRTZh.jpg)  
 จากภาพด้านบน เป็นแผนที่โลกแสดงอัตราการยกเลิกของแต่ละประเทศ โดยนับเพียงประเทศที่มีการจองตั้งแต่ 100 Booking ขึ้นไป  
+ ![Image](https://imgur.com/TpSL16z.jpg)  
+ จากภาพด้านบน แสดง Top 10 ของประเทศที่มี Cancellation Rates สูงที่สุด  
+ 
+ 
+
 
    
   
