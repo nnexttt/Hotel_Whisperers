@@ -31,8 +31,10 @@ Project by
    4.Company: ค่า NaN คือค่าที่ไม่มีรหัสของ Company จึงสร้าง column ใหม่ ชื่อ is_company และ Normalize ค่าให้้เป็น 0 (ไม่มี company) และ 1 (มี company) แทน  
     * แปลงค่า column 'total_of_special_requests' และ 'required_car_parking_spaces' เป็นค่า 0 หรือ 1 เพื่อให้ง่ายต่อการวิเคราะห์  
    
-4. Data Analysis and Data Visualization
-   
+3. Data Analysis and Data Visualization
+   กราฟแสดงจำนวนการจองของโรงแรมประเภท City Hotel กับ Resort Hotel  
    ![Image](https://imgur.com/lY4UTji.jpg)
-
+   กราฟแสดงจำนวนการจองแบบ Percentage ของลูกค้าภายในประเทศ กับ ลูกค้าต่างประเทศ ของโรงแรมแต่ละประเภท 
+   ![Image](https://imgur.com/6qyGwvF.jpg)
+   
 
