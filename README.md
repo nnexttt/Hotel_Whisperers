@@ -38,6 +38,13 @@ Project by
    ![Image](https://imgur.com/6qyGwvF.jpg)
    # Question 1 ปัจจัยที่ส่งผลต่อยกเลิกการจองของโรงแรม  
      จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables กับอัตราการยกเลิก จะเห็นได้ว่า column 'is_local' และ 'is_agent' มีความสัมพันธ์เชิงบวกกับอัตราการยกเลิก หมายความว่า 2 ตัวแปรนี้แปรผันตรงกับ cancellation rate ส่วน column 'is_company', 'is_spacial_requests', 'is_car_parking', 'is_repeated_guest' และ 'hotel_type' มีความสัมพันธ์เชิงลบกับอัตราการยกเลิก หมายความว่า 5 ตัวแปรนี้แปรผกผันกับ cancellation rate
+     
    ![image](https://imgur.com/kNDRU8Z.jpg)
-   จากกราฟ Correlation Between Factors and Cancellation จะแสดงความสัมพันธ์์ของตัวแปรที่เป็นตัวเลข กับ cancellation rate จะเห็นได้ว่า ระยะเวลาการจองล่วงหน้า ('lead_time') ส่งผลต่อการอัตราการยกเลิกการจองมากที่สุด หมายความว่ายิ่งระยะเวลาการจองนาน ก็จะทำให้มีอัตราการยกเลิกสูง  
+   จากกราฟ Correlation Between Factors and Cancellation จะแสดงความสัมพันธ์์ของตัวแปรที่เป็นตัวเลข กับ cancellation rate จะเห็นได้ว่า ระยะเวลาการจองล่วงหน้า ('lead_time') ส่งผลต่อการอัตราการยกเลิกการจองมากที่สุด หมายความว่ายิ่งระยะเวลาการจองนาน ก็จะทำให้มีอัตราการยกเลิกสูง
+     
    ![image](https://imgur.com/b9L2hOY.jpg)
+
+  * กราฟแสดงความสัมพันธ์ระหว่าง Lead time กับ Cancellation rate
+  ![image](https://imgur.com/TpANsQT.jpg)
+
+  จากกราฟอธิบายได้ว่า 
