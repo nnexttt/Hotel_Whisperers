@@ -42,7 +42,8 @@ Project by
    ![image](https://imgur.com/kNDRU8Z.jpg)
 กราฟแสดงการเปรียบเทียบ Cancellation rate กับปัจจัยที่มาจาก Binary Variables  
   ![image](https://imgur.com/hEMwiFO.jpg)
-   จากกราฟ Correlation Between Factors and Cancellation จะแสดงความสัมพันธ์์ของตัวแปรที่เป็นตัวเลข กับ cancellation rate จะเห็นได้ว่า ระยะเวลาการจองล่วงหน้า ('lead_time') ส่งผลต่อการอัตราการยกเลิกการจองมากที่สุด หมายความว่ายิ่งระยะเวลาการจองนาน ก็จะทำให้มีอัตราการยกเลิกสูง
+
+   ด้านล่างเป็นกราฟ Correlation Between Factors and Cancellation จะแสดงความสัมพันธ์์ของตัวแปรที่เป็นตัวเลข กับ cancellation rate จะเห็นได้ว่า ระยะเวลาการจองล่วงหน้า ('lead_time') ส่งผลต่อการอัตราการยกเลิกการจองมากที่สุด หมายความว่ายิ่งระยะเวลาการจองนาน ก็จะทำให้มีอัตราการยกเลิกสูง
      
    ![image](https://imgur.com/b9L2hOY.jpg)
 
