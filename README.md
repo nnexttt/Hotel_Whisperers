@@ -36,5 +36,7 @@ Project by
    ![Image](https://imgur.com/lY4UTji.jpg)
    กราฟแสดงจำนวนการจองแบบ Percentage ของลูกค้าภายในประเทศ กับ ลูกค้าต่างประเทศ ของโรงแรมแต่ละประเภท 
    ![Image](https://imgur.com/6qyGwvF.jpg)
-   
-
+   * # Question 1 ปัจจัยที่ส่งผลต่อยกเลิกการจองของโรงแรม  
+     ตัวแปร
+   ![image](https://imgur.com/kNDRU8Z.jpg)
+   * 
