@@ -34,8 +34,7 @@ Project by
 3. Data Analysis and Data Visualization
    กราฟแสดงจำนวนการจองของโรงแรมประเภท City Hotel กับ Resort Hotel  
    ![Image](https://imgur.com/lY4UTji.jpg)
-   กราฟแสดงจำนวนการจองแบบ Percentage ของลูกค้าภายในประเทศ กับ ลูกค้าต่างประเทศ ของโรงแรมแต่ละประเภท 
-   ![Image](https://imgur.com/6qyGwvF.jpg)
+ 
    # Question 1 ปัจจัยที่ส่งผลต่อยกเลิกการจองของโรงแรม  
      จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables กับอัตราการยกเลิก จะเห็นได้ว่า column 'is_local' และ 'is_agent' มีความสัมพันธ์เชิงบวกกับอัตราการยกเลิก หมายความว่า 2 ตัวแปรนี้แปรผันตรงกับ cancellation rate ส่วน column 'is_company', 'is_spacial_requests', 'is_car_parking', 'is_repeated_guest' และ 'hotel_type' มีความสัมพันธ์เชิงลบกับอัตราการยกเลิก หมายความว่า 5 ตัวแปรนี้แปรผกผันกับ cancellation rate
      
@@ -61,7 +60,12 @@ Project by
 * กราฟแสดงความสัมพันธ์ของ Cancellation Rate ตามฤดูกาล  
   ![image](https://imgur.com/8oglazQ.jpg)
   จากกราฟแสดงให้เห็นว่า ช่วง High Season มีอัตราการยกเลิกสูง โดยอาจจะมีสาเหตุจากปัจจัยต่างๆดังต่อไปนี้
+  High Season มีการจองล่วงหน้านาน นอกจากนี้ ในช่วง High Season ยังมีลูกค้าที่กลับมาใช้บริการซ้ำ ('is_repeated_guest') น้อย จึงทำให้มีอัตราการยกเลิกสูง
+  
   ![image](https://imgur.com/GDV8Vpk.jpg)
-
-
+  
+    
+# Question 3 ลูกค้าประเภทใดที่มีแนวโน้มจะทำการยกเลิกการจองมากที่สุด?
+  กราฟแสดงจำนวนการจองแบบ Percentage ของลูกค้าภายในประเทศ กับ ลูกค้าต่างประเทศ ของโรงแรมแต่ละประเภท 
+   ![Image](https://imgur.com/6qyGwvF.jpg)
   
