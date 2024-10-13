@@ -72,9 +72,13 @@ Project by
 
 # Question 4 ปัจจัยที่ส่งผลต่อการเปลี่ยนแปลงของ Average daily rate (ADR)  
 * กราฟแสดงการกระจายตัวของค่า Average daily rate (ADR)
-![image](https://imgur.com/0X58sjd.jpg)
-จะเห็นได้ว่า ค่า Adr กระจายตัวตั้งแต่เปอร์เซนไทล์ที่ 2.5 - 97.5 มีค่าตั้งแต่ 29.6 - 221.43 ยูโร 
-* 
+![image](https://imgur.com/vlgumyT.jpg)  
+จะเห็นได้ว่า ค่า Adr มีกระจายตัว โดยค่าเฉลี่ย = 101.98 ยูโร, SD = 50.42 ยูโร, median = 94.96 ยูโร  
+กราฟมีลักษณะเบ้ขวา เนื่องจากค่า skewness = 10.62
+  
+*  จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables ที่ส่งผลต่อค่า ADR จะเห็นได้ว่า column 'is_canceled', 'is_car_parking' และ 'is_repeated_guest' มีความสัมพันธ์เชิงบวกกับค่า ADR หมายความว่า 3 ตัวแปรนี้แปรผันตรงกับ ค่า ADR  
+![image](https://imgur.com/RVX6t5W.jpg)
+*  
 
 
  
