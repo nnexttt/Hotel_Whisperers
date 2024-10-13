@@ -23,4 +23,11 @@ Project by
 # Data Jouney
 1. Import library ที่ต้องใช้ในการวิเคราะห์ข้อมูล เช่น pandas,numpy และ matplotlib. Download dataset ที่ต้องการวิเคราะห์โดยประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ตั้งแต่ปี 2015-2017 ที่ได้ download มาจาก website Kaggle โดยข้อมูลทั้งหมดมีจำนวน 119390 rows และ 32 columns 
 2. Cleansing Data
-3. 
+   ![image](https://ibb.co/R3qWy4C)
+   มี 4 column ที่มี missing data คือ
+   1.Country: จากข้อมูลประเทศที่เยอะที่สุดคือ ประเทศโปตุเกส(PRT) เราจึงใส่ค่า 'PRT' ลงไปในค่าเติมในค่า null 
+   2.Children: จากข้อมูลจำนวน Children ที่เยอะที่สุดคือ 0 เราจึงใส่ค่า 0 ลงไปในค่าเติมในค่า null และสร้าง Colum ใหม่ชื่อ total_guest โดยรวม 'adults','children','babies' เพื่อให้ง่ายต่อการวิเคราะห์
+   3.Agent: ค่า NaN คือค่าที่ไม่มีรหัสของ Agent จึงสร้าง column ใหม่ ชื่อ is_agent และ Normalize ค่าให้้เป็น 0 (ไม่มี agent) และ 1 (มี agent) แทน
+   4.Company: ค่า NaN คือค่าที่ไม่มีรหัสของ Company จึงสร้าง column ใหม่ ชื่อ is_company และ Normalize ค่าให้้เป็น 0 (ไม่มี company) และ 1 (มี company) แทน
+
+
