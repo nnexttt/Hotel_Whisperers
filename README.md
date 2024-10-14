@@ -20,7 +20,18 @@ Project by
 
 
 # Data Jouney
-1. Import library ที่ต้องใช้ในการวิเคราะห์ข้อมูล เช่น pandas,numpy และ matplotlib. Download dataset ที่ต้องการวิเคราะห์โดยประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ตั้งแต่ปี 2015-2017 ที่ได้ download มาจาก website Kaggle โดยข้อมูลทั้งหมดมีจำนวน 119390 rows และ 32 columns 
+1. Import library ที่ต้องใช้ในการวิเคราะห์ข้อมูล เช่น  
+   import pandas as pd  
+import numpy as np  
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+import plotly.express as px  
+import pycountry  
+from sklearn.linear_model import LogisticRegression  
+from sklearn.model_selection import train_test_split  
+from sklearn.metrics import classification_report  
+Download dataset ที่ต้องการวิเคราะห์โดยประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ตั้งแต่ปี 2015-2017 ที่ได้ download มาจาก website Kaggle โดยข้อมูลทั้งหมดมีจำนวน 119390 rows และ 32 columns
+  
 2. Cleansing Data  
     ![image](https://imgur.com/Egy68Xb.jpg)  
    * จัดการ Column ที่มี missing data ทั้ง 4 column คือ  
@@ -45,7 +56,7 @@ Project by
 กราฟแสดงการเปรียบเทียบ Cancellation rate กับปัจจัยที่มาจาก Binary Variables  
   ![image](https://imgur.com/hEMwiFO.jpg)
 
-   ด้านล่างเป็นกราฟ Correlation Between Factors and Cancellation จะแสดงความสัมพันธ์์ของตัวแปรที่เป็นตัวเลข กับ cancellation rate จะเห็นได้ว่า ระยะเวลาการจองล่วงหน้า ('lead_time') ส่งผลต่อการอัตราการยกเลิกการจองมากที่สุด หมายความว่ายิ่งระยะเวลาการจองนาน ก็จะทำให้มีอัตราการยกเลิกสูง
+   ด้านล่างเป็นกราฟ Correlation Between Factors and Cancellation จะแสดงความสัมพันธ์ของตัวแปรที่เป็นตัวเลข กับ cancellation rate จะเห็นได้ว่า ระยะเวลาการจองล่วงหน้า ('lead_time') ส่งผลต่อการอัตราการยกเลิกการจองมากที่สุด หมายความว่ายิ่งระยะเวลาการจองนาน ก็จะทำให้มีอัตราการยกเลิกสูง
      
    ![image](https://imgur.com/S1jrOrQ.jpg)
 
@@ -56,6 +67,8 @@ Project by
 ในช่วง Lead Time สูง (เช่น 400 วันขึ้นไป) ข้อมูลมีแนวโน้มกระจุกตัวที่ค่า Cancellation Rate สูงกว่า 0.5 ซึ่งหมายความว่าการจองที่มีระยะเวลาล่วงหน้านานมักจะมีโอกาสยกเลิกมากกว่า  
 * กราฟแสดงการกระจายตัวของระยะเวลาการจองห้องพัก  
   ![image](https://imgur.com/gyPMqL2.jpg)
+
+  จากปัจจัยที่ส่งผลต่อการยกเลิกการจองห้องพัก พบว่าปัจจัยหลักที่ทำให้มีการยกเลิก คือ การจองที่มีระยะเวลาล่วงหน้านานมักจะมีโอกาสยกเลิกมากกว่า และลูกค้าภายในประเทศ และลูกค้าทำการจองผ่าน agent มีโอกาสยกเลิกมากกว่า จึงคิดว่าทางโรงแรมควรจำกัดระยะเวลาการจองให้มีช่วงเวลาไม่เกิน 3 เดือน เพื่อลดโอกาสในการยกเลิกการจอง 
 
 
 # Question 2 ช่วงฤดูกาลใดที่มีอัตราการยกเลิกการจองมากที่สุด?
@@ -97,6 +110,8 @@ Project by
 
 * กราฟแสดงการเปรียบเทียบราคาห้องพักของโรงแรมแต่ละประเภท  
 ![image](https://imgur.com/QxnlJqy.jpg)
+
+
 
 
 
