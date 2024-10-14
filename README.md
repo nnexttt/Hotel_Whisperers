@@ -98,20 +98,24 @@ Download dataset ที่ต้องการวิเคราะห์โด
 กราฟมีลักษณะเบ้ขวา เนื่องจากค่า skewness = 10.62
   
 *  จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables ที่ส่งผลต่อค่า ADR จะเห็นได้ว่า column 'is_canceled', 'is_car_parking' และ 'is_repeated_guest' มีความสัมพันธ์เชิงบวกกับค่า ADR หมายความว่า 3 ตัวแปรนี้แปรผันตรงกับ ค่า ADR  
-![image](https://imgur.com/RVX6t5W.jpg)
+![image](https://imgur.com/RVX6t5W.jpg)  
   
 * จากภาพด้านล่าง เป็นแผนที่โลกแสดงค่าเฉลี่ยของ ADR แต่ละประเทศ โดยนับเพียงประเทศที่มีการจองตั้งแต่ 100 Booking ขึ้นไป  
- ![image](https://imgur.com/pzieTuI.jpg)
-
+ ![image](https://imgur.com/wmufd1Z.jpg)
+  
 * กราฟแสดงค่าเฉลี่ย ADR ของ 50 ประเทศที่มีค่ามากที่สุด  
   โดยค่าที่่มากที่สุดอยู่ที่ประเทศโมรอคโก (MAR)  
-  ![image](https://imgur.com/uHvDlaq.jpg)
-  
+  ![image](https://imgur.com/gURqgtU.jpg)
+    
 * กราฟแสดงการกระจายตัวของค่า ADR ของแต่ละฤดูกาล  
  ![image](https://imgur.com/24Adg1H.jpg)  
-
+  
 * กราฟแสดงการเปรียบเทียบราคาห้องพักของโรงแรมแต่ละประเภท  
 ![image](https://imgur.com/QxnlJqy.jpg)
+
+
+
+
 
 
 
