@@ -34,7 +34,7 @@ Project by
    กราฟแสดงจำนวนการจองของโรงแรมประเภท City Hotel กับ Resort Hotel  
    ![Image](https://imgur.com/lY4UTji.jpg)
 
-   กราฟแสดงสถานะการจองห้องพัก
+   กราฟแสดงสถานะการจองห้องพัก  
    ![Image](https://imgur.com/Imy69QP.jpg)
 
  
