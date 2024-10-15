@@ -21,7 +21,7 @@ Project by
 
 # Data Jouney
 1. Import library ที่ต้องใช้ในการวิเคราะห์ข้อมูล เช่น  
-   import pandas as pd  
+   * import pandas as pd  
 import numpy as np  
 import matplotlib.pyplot as plt  
 import seaborn as sns  
@@ -30,7 +30,7 @@ import pycountry
 from sklearn.linear_model import LogisticRegression  
 from sklearn.model_selection import train_test_split  
 from sklearn.metrics import classification_report  
-Download dataset ที่ต้องการวิเคราะห์โดยประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ตั้งแต่ปี 2015-2017 ที่ได้ download มาจาก website Kaggle โดยข้อมูลทั้งหมดมีจำนวน 119390 rows และ 32 columns
+* Download dataset ที่ต้องการวิเคราะห์โดยประกอบด้วยข้อมูลการจองสำหรับโรงแรมในเมืองและโรงแรมรีสอร์ท ตั้งแต่ปี 2015-2017 ที่ได้ download มาจาก website Kaggle โดยข้อมูลทั้งหมดมีจำนวน 119390 rows และ 32 columns
   
 2. Cleansing Data  
     ![image](https://imgur.com/Egy68Xb.jpg)  
