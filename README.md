@@ -35,12 +35,12 @@ from sklearn.metrics import classification_report
 2. Cleansing Data  
     ![image](https://imgur.com/Egy68Xb.jpg)  
    * จัดการ Column ที่มี missing data ทั้ง 4 column คือ  
-   1.Country: จากข้อมูลประเทศที่เยอะที่สุดคือ ประเทศโปตุเกส(PRT) เราจึงใส่ค่า 'PRT' ลงไปในค่าเติมในค่า null   
-   2.Children: จากข้อมูลจำนวน Children ที่เยอะที่สุดคือ 0 เราจึงใส่ค่า 0 ลงไปในค่าเติมในค่า null และสร้าง Colum ใหม่ชื่อ total_guest โดยรวม 'adults','children','babies' เพื่อให้ง่ายต่อการวิเคราะห์  
+   1.Country: จากข้อมูลประเทศที่เยอะที่สุดคือ ประเทศโปตุเกส(PRT) เราจึงใส่ค่า 'PRT' ลงไปในค่าเติมในค่า NaN     
+   2.Children: จากข้อมูลจำนวน Children ที่เยอะที่สุดคือ 0 เราจึงใส่ค่า 0 ลงไปในค่าเติมในค่า NaN และสร้าง Colum ใหม่ชื่อ total_guest โดยรวม 'adults','children','babies' เพื่อให้ง่ายต่อการวิเคราะห์  
    3.Agent: ค่า NaN คือค่าที่ไม่มีรหัสของ Agent จึงสร้าง column ใหม่ ชื่อ is_agent และ Normalize ค่าให้้เป็น 0 (ไม่มี agent) และ 1 (มี agent) แทน  
    4.Company: ค่า NaN คือค่าที่ไม่มีรหัสของ Company จึงสร้าง column ใหม่ ชื่อ is_company และ Normalize ค่าให้้เป็น 0 (ไม่มี company) และ 1 (มี company) แทน  
     * แปลงค่า column 'total_of_special_requests' และ 'required_car_parking_spaces' เป็นค่า 0 หรือ 1 เพื่อให้ง่ายต่อการวิเคราะห์  
-   
+     
 3. Data Analysis and Data Visualization  
    * กราฟแสดงจำนวนการจองของโรงแรมประเภท City Hotel กับ Resort Hotel
         
