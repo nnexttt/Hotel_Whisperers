@@ -52,7 +52,7 @@ from sklearn.metrics import classification_report
 
  
    # Question 1 ปัจจัยที่ส่งผลต่อยกเลิกการจองของโรงแรม  
-     จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables กับอัตราการยกเลิก จะเห็นได้ว่า column 'is_local' และ 'is_agent' มีความสัมพันธ์เชิงบวกกับอัตราการยกเลิก หมายความว่า 2 ตัวแปรนี้แปรผันตรงกับ cancellation rate ส่วน column 'is_company', 'is_spacial_requests', 'is_car_parking', 'is_repeated_guest' และ 'hotel_type' มีความสัมพันธ์เชิงลบกับอัตราการยกเลิก หมายความว่า 5 ตัวแปรนี้แปรผกผันกับ cancellation rate
+     จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables กับอัตราการยกเลิก (Cancellation Rate) จะเห็นได้ว่า column 'is_local' และ 'is_agent' มีความสัมพันธ์เชิงบวกกับ cancellation rate หมายความว่า 2 ตัวแปรนี้แปรผันตรงกับ cancellation rate ส่วน column 'is_company', 'is_spacial_requests', 'is_car_parking', 'is_repeated_guest' และ 'hotel_type' มีความสัมพันธ์เชิงลบกับ cancellation rate หมายความว่า 5 ตัวแปรนี้แปรผกผันกับ cancellation rate
      
    ![image](https://imgur.com/kNDRU8Z.jpg)
 กราฟแสดงการเปรียบเทียบ Cancellation rate กับปัจจัยที่มาจาก Binary Variables  
