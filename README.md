@@ -42,10 +42,12 @@ from sklearn.metrics import classification_report
     * แปลงค่า column 'total_of_special_requests' และ 'required_car_parking_spaces' เป็นค่า 0 หรือ 1 เพื่อให้ง่ายต่อการวิเคราะห์  
    
 3. Data Analysis and Data Visualization  
-   * กราฟแสดงจำนวนการจองของโรงแรมประเภท City Hotel กับ Resort Hotel  
+   * กราฟแสดงจำนวนการจองของโรงแรมประเภท City Hotel กับ Resort Hotel
+        
    ![Image](https://imgur.com/lY4UTji.jpg)
 
-   * กราฟแสดงสถานะการจองห้องพัก  
+   * กราฟแสดงสถานะการจองห้องพัก
+        
    ![Image](https://imgur.com/Imy69QP.jpg)  
 
  
