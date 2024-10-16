@@ -111,7 +111,7 @@ from sklearn.metrics import classification_report
 จะเห็นได้ว่า ค่า Adr มีกระจายตัว โดยค่าเฉลี่ย = 101.98 ยูโร, SD = 50.42 ยูโร, median = 94.96 ยูโร  
 กราฟมีลักษณะเบ้ขวา เนื่องจากค่า skewness = 10.62
   
-*  จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables ที่ส่งผลต่อค่า ADR จะเห็นได้ว่า column 'is_canceled', 'is_car_parking' และ 'is_repeated_guest' มีความสัมพันธ์เชิงบวกกับค่า ADR หมายความว่า 3 ตัวแปรนี้แปรผันตรงกับ ค่า ADR ส่วนตัวแปรที่ส่งผลเชิงลบต่อค่า ADR คือ 'is_local', 'is_agent', 'is_company', 'hotel_type' หมายความว่า 4 ตัวแปรนี้แปรผกผันกับ ค่า ADR
+*  จากการใช้ Logistic Regression หาความสัมพันธ์ของ Binary Variables ที่ส่งผลต่อค่า ADR จะเห็นได้ว่า column 'is_canceled', 'is_car_parking' และ 'is_repeated_guest' มีความสัมพันธ์เชิงบวกกับค่า ADR หมายความว่า 3 ตัวแปรนี้แปรผันตรงกับ ค่า ADR ส่วนตัวแปรที่ส่งผลเชิงลบต่อค่า ADR คือ 'is_local', 'is_agent', 'is_company', 'hotel_type' หมายความว่า 4 ตัวแปรนี้แปรผกผันกับ ค่า ADR เช่น hotel_type = 1 (Resort Hotel) แปลว่า Resort Hotel ราคาถูกกว่า City Hotel  
 ![image](https://imgur.com/RVX6t5W.jpg)  
   
 * จากภาพด้านล่าง เป็นแผนที่โลกแสดงค่าเฉลี่ยของ ADR แต่ละประเทศ โดยนับเพียงประเทศที่มีการจองตั้งแต่ 100 Booking ขึ้นไป  
