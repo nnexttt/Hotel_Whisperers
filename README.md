@@ -1,5 +1,5 @@
 # MiniProject DADS5001
-Mini-Project DADS5001 Data Analytics and Data Science Tools and Programming.
+Mini-Project DADS5001 Data Analytics and Data Science Tools and Programming.  
 Project by 
 1. 6620422010 ณฐกมลวรรณ แดงไพโรจน์
 2. 6620422019 สุชานันท์ ยิ้มณรงค์
